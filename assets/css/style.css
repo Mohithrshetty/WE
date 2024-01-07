@@ -282,6 +282,11 @@ header {
         padding: 5px 23px;
         border-radius: 50px;
         margin-left: 5px; }
+        #logo img{
+          width: 55%;
+          height: 95%;
+        }
+
   header .header-bottom {
     padding: 6px;
     background-color: #fff; }
@@ -395,7 +400,10 @@ header {
 
 .slider-img img {
   position: relative;
-  z-index: -1; }
+  z-index: -1;
+  
+}
+
 
 .slider .owl-nav .owl-prev,
 .slider .owl-nav .owl-next {
@@ -780,8 +788,21 @@ header {
 
 .port-image {
   width: 100%; }
-
+  
+  #ab1 img{
+    height: 280px;
+    width: 900px;
+  }
+  #ab2 img{
+    height: 250px;
+    width: 680px;
+  }
+ 
 .gallery_product {
   margin-bottom: 30px; }
+
+.social i{
+  font-size: 23px;
+}
 
 /*# sourceMappingURL=style.css.map */
