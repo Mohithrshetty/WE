@@ -307,8 +307,15 @@ header {
     header .nav-col .navbad li {
       padding: 15px 15px;
       font-weight: 700;
-      font-size: .9rem;
+      font-size: 1rem;
       float: left; }
+       #donate{
+        background-color: #3c51c8;
+        color: rgb(243, 238, 238);
+      }
+      .navbad li #donate:hover{
+        background-color: rgb(112, 245, 112);
+      }
       @media screen and (max-width: 1005px) {
         header .nav-col .navbad li {
           padding: 15px 12px; } }
@@ -318,11 +325,11 @@ header {
           width: 100%;
           padding: 10px; } }
       header .nav-col .navbad li a {
-        color: #686968 !important;
+        color: #555855;
         border: 1px solid #CCC;
         border-radius: 50px; }
         header .nav-col .navbad li a:hover {
-          background-color: #3cc88f;
+          background-color: #3c51c8;
           color: #fff !important; }
     header .nav-col .navbad .nav-btn {
       float: right; }
