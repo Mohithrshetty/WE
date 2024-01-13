@@ -44,7 +44,7 @@
     
             <h1>LOGIN HERE</h1>
     
-            <form action="#" method="post">
+            <form action="/login" method="post" id="login">
                 <div class="input-box">
                     <input type="email" placeholder="Email"  id="login-email" required>
                     <i class="fa fa-envelope"></i>
@@ -54,11 +54,10 @@
                     <input type="password" placeholder="Password" id="login-password" required>
                     <i class="fa fa-lock"></i>
                 </div>
-                <div class="input-box">
-              <button class="btn" onclick="handleLogin()" ><a href="payment.html"></a></button>
-              </div>
-    
-                <!-- <button type="submit">LOGIN</button> -->
+                
+          <a href="payment.html"><button class="btn" onclick="handleLogin()">LOGIN</button></a>
+             
+                <!-- <a href="payment.html">LOGIN</a> -->
     
                 <div class="links">
                     
@@ -70,7 +69,7 @@
         </div><!-- End Login -->
     
     </div>
-    <script src="./assets//js/login.js"></script>
+    <script src="assets/js/login.js"></script>
 
   </body>
 </html>
