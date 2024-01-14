@@ -31,7 +31,7 @@ body {
 
     /* animation: move-up6 2s ease-in infinite alternate-reverse;
     
-} */ */
+} */ 
 
 .container::after {
     content: "";

@@ -632,7 +632,7 @@ header {
   margin-left: 5px;
   color: #FFFFFF; }
 
-/* ===================================== Fooer CSS ================================== */
+/* ===================================== Footer CSS ================================== */
 .footer {
   padding: 50px;
   padding-bottom: 50px;
@@ -812,4 +812,11 @@ header {
   font-size: 23px;
 }
 
-/*# sourceMappingURL=style.css.map */
+
+.img-responsive{
+  border-radius: 12px;
+}
+
+.abtimg{
+  border-radius: 20px;
+}
